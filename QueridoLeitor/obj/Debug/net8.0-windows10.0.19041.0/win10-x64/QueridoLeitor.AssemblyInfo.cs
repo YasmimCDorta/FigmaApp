@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QueridoLeitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+30e2cd3d712cbb1c1860dc9a6a0c7f7c3253a285")]
 [assembly: System.Reflection.AssemblyProductAttribute("QueridoLeitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QueridoLeitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
