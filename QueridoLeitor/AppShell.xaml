@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:QueridoLeitor"
     xmlns:pages="clr-namespace:QueridoLeitor.Paginas"
     Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutBackgroundColor="#BDDB88"
     Title="QueridoLeitor">
 
     <Shell.Resources>
@@ -17,13 +18,13 @@
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
-        <FlyoutItem Title="Home" Icon="casa.png" >
+        <FlyoutItem Title="Home" Icon="home.svg" >
             <ShellContent Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}" />
         </FlyoutItem>
-        <FlyoutItem Title="Livros" Icon="book.png">
+        <FlyoutItem Title="Livros" Icon="livros.svg">
             <ShellContent Route="LivrosPage" ContentTemplate="{DataTemplate pages:LivrosPage}" />
         </FlyoutItem>
-        <FlyoutItem Title="Perfil" Icon="pessoa.png">
+        <FlyoutItem Title="Perfil" Icon="perfil.svg">
             <ShellContent Route="PerfilPage" ContentTemplate="{DataTemplate pages:PerfilPage}" />
         </FlyoutItem>
 </Shell>
