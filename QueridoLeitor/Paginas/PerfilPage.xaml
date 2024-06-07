@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.PerfilPage"
+             Title="PERFIL"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout>
+        <Frame Margin="10" BorderColor="Black" CornerRadius="180" HeightRequest="180"
+       WidthRequest="180"  HorizontalOptions="Center" VerticalOptions="Center">
+            <Image HeightRequest="300" WidthRequest="250" Source="avatar" />
+        </Frame>
+        <Frame BorderColor="White" CornerRadius="5" Background="#EEFAA8" Margin="20" >
+            <StackLayout>
+                <Label Text="NOME COMPLETO" TextColor="Black" FontSize="Large" FontFamily="Bold" Margin="0,5" HorizontalTextAlignment="Start"/>
+                <Label Text="YASMIM CRISTINA DORTA DE LIMA" TextColor="Black" FontSize="Subtitle" FontFamily="Bold" Margin="5,5" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="White" CornerRadius="5" Background="#E0F3B2" Margin="20,10"  >
+            <StackLayout>
+                <Label Text="CIDADE" TextColor="Black" FontSize="Large" FontFamily="Bold" Margin="0,5" HorizontalTextAlignment="Start"/>
+                <Label Text="BROTAS,SP" TextColor="Black" FontSize="Subtitle" FontFamily="Bold" Margin="5,5" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="White" CornerRadius="5" Background="#FDEBA9" Margin="20,10"  >
+            <StackLayout>
+                <Label Text="EMAIL" TextColor="Black" FontSize="Large" FontFamily="Bold" Margin="0,5" HorizontalTextAlignment="Start"/>
+                <Label Text="YASMIN.DORTA@ALUNO.SENAI.BR" TextColor="Black" FontSize="Subtitle" FontFamily="Bold" Margin="5,5" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="White" CornerRadius="5" Background="#F5DD7E" Margin="20,10"  >
+            <StackLayout>
+                <Label Text="TELEFONE" TextColor="Black" FontSize="Large" FontFamily="Bold" Margin="0,5" HorizontalTextAlignment="Start"/>
+                <Label Text="(14) 99999-9999" TextColor="Black" FontSize="Subtitle" FontFamily="Bold" Margin="5,5" />
+            </StackLayout>
+        </Frame>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.SenhaPage"
+             Title="SenhaPage"
+             BackgroundColor="#BDDB88" 
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <VerticalStackLayout Margin="15" Padding="15" Spacing="5">
+            <Image HeightRequest="250" WidthRequest="350" Source="loginlogo"/>
+
+            <Frame HasShadow="True" Margin="10" 
+       BackgroundColor= "White" BorderColor="White" CornerRadius="15">
+                <StackLayout>
+                    <Label Text="RECUPERAÇÃO DE SENHA" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Title"/>
+                    
+                    <Label Text="COLOQUE O EMAIL PARA RECUPERAR SUA SENHA" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Small" Margin="5"/>
+                    
+                    <Label x:Name="lblEmail" Text="EMAIL" TextColor="Black" FontSize="Subtitle" Margin="5"/>
+
+                    <Frame BorderColor="White" CornerRadius="5" Background="#FDEBA9" Margin="8" Padding="5">
+                        <Entry x:Name="txtEmail" Placeholder="Digite seu Email" Keyboard="Email" Background="#FDEBA9"/>
+                    </Frame>
+
+                    <Button Text="REDEFINIR SENHA" TextColor="Black" WidthRequest="250" x:Name="btnSenha" BackgroundColor="#FF9036"
+                       Clicked="btnSenha_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

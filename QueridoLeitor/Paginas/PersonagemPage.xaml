@@ -1,0 +1,159 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.PersonagemPage"
+             xmlns:sfPopup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
+             Title="PERSONAGEM">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="PERSONAGENS - PRINCIPAIS" TextColor="Black" FontSize="Title" FontFamily="Bold" Margin="20,10" HorizontalTextAlignment="Center"/>
+
+            <Grid HeightRequest="280" Margin="10">
+            <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#8EB2C5" WidthRequest="160" Grid.ColumnSpan="2">
+                <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="dap" />
+                        <Button Text="Daphne Bridgerton" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                             WidthRequest="190" x:Name="dap" Clicked="dap_Clicked" Background="#8EB2C5"/>
+
+                    </StackLayout>
+            </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#c7956d" WidthRequest="160" >
+                <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="simon2" />
+                        <Button Text="Simon Basset" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                         WidthRequest="190" x:Name="simon" Clicked="simon_Clicked" Background="#c7956d"/>
+                    </StackLayout>
+            </Frame>
+        </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#B998B3" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="kate" />
+                        <Button Text="Kate Sharma" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                             WidthRequest="190" x:Name="kate" Clicked="kate_Clicked"  Background="#B998B3"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#2b879e" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="anth" />
+                        <Button Text="Anthony Bridgerton" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                            WidthRequest="190" x:Name="antho" Clicked="antho_Clicked"  Background="#2b879e"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#F7BC05" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="pen" />
+                        <Button Text="Penelope F." TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                              WidthRequest="190" x:Name="pen" Clicked="pen_Clicked"  Background="#F7BC05"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#8bb6a3" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="colin2" />
+                        <Button Text="Colin Bridgerton" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                             WidthRequest="190" x:Name="colin" Clicked="colin_Clicked"  Background="#8bb6a3"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame  HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#709AA2" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="eloise" />
+                        <Button Text="Eloise Bridgerton" TextColor="Black" FontSize="Small" Margin="10,15,10,0" FontFamily="Bold"  VerticalOptions="Center" HorizontalOptions="Center"
+                             WidthRequest="190" x:Name="eloise" Clicked="eloise_Clicked"  Background="#709AA2"/>
+                    </StackLayout>
+                </Frame>
+                <Frame HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FE9D97" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="violet" />
+
+                        <Button Text="Lady Violet B." TextColor="Black" FontFamily="Bold" x:Name="violet" Background="#FE9D97"
+                            FontSize="Small" WidthRequest="190" Clicked="violet_Clicked" VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#A2CAA5" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="benedict" />
+                        <Button Text="Benedict B." TextColor="Black" FontFamily="Bold" x:Name="bene"  Background="#A2CAA5"
+                            FontSize="Small" WidthRequest="190" Clicked="bene_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#6D9BC6" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="gregory" />
+                        <Button Text="Gregory Bridgerton" TextColor="Black" FontFamily="Bold" x:Name="greg"  Background="#6D9BC6"
+                             FontSize="Small" WidthRequest="190" Clicked="greg_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FFAFD1" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="hya" />
+                        <Button Text="Hyacinth B." TextColor="Black" FontFamily="Bold" x:Name="hya"  Background="#FFAFD1"
+                                 FontSize="Small" WidthRequest="190" Clicked="hya_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF9E58" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="francesca" />
+                        <Button Text="Francesca B." TextColor="Black" FontFamily="Bold" x:Name="fran"  Background="#FF9E58"
+                                FontSize="Small" WidthRequest="190" Clicked="fran_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FE9D97" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="danb" />
+                        <Button Text="Lady Danbury" TextColor="Black" FontFamily="Bold" x:Name="danb"  Background="#FE9D97"
+                            FontSize="Small" WidthRequest="190" Clicked="danb_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                 </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End"  CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FFD711" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="rainha" />
+                        <Button Text="Rainha Charlotte" TextColor="Black" FontFamily="Bold" x:Name="rainh"  Background="#FFD711"
+                                FontSize="Small" WidthRequest="190" Clicked="rainh_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#bfac8b" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="sharma" />
+                        <Button Text="Lady Mary S." TextColor="Black" FontFamily="Bold" x:Name="mary"  Background="#bfac8b"
+                             FontSize="Small" WidthRequest="190" Clicked="mary_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FFA9C5" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="edwina" />
+                        <Button Text="Edwina Sharma" TextColor="Black" FontFamily="Bold" x:Name="edw"  Background="#FFA9C5"
+                          FontSize="Small" WidthRequest="190" Clicked="edw_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

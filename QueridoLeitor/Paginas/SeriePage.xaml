@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.SeriePage"
+             Title="SÉRIE">
+    <ScrollView>
+        <VerticalStackLayout>
+        <Image HeightRequest="300" WidthRequest="360" Source="familiab"/>
+
+        <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start" BorderColor="Transparent" CornerRadius="15" Margin="15,0,15,10" WidthRequest="160" Grid.ColumnSpan="2">
+                    <VerticalStackLayout >
+                        <Label Text="CENÁRIO" FontSize="Title" FontFamily="Bold" HorizontalTextAlignment="Start"/>
+                        <Label Text="A série é adaptada do romance romântico de Julia Quinn e se passa em Londres, mas as cenas externas foram filmadas em Hampshire, principalmente na cidade de Bath.Alguns dos locais de filmagem notáveis ​​​​em Bath incluem Pulteney Bridge, Royal Crescent, Abbey Green e Assembly Rooms."  
+                FontSize="Micro" HorizontalTextAlignment="Start" Margin="0,10,0,10"/>
+                    </VerticalStackLayout>
+                </Frame>
+              
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" WidthRequest="160" >
+                    <Image HeightRequest="280" WidthRequest="250" Source="cenariobrd" />
+                </Frame>
+        </Grid>
+
+        <Grid HeightRequest="300" Margin="10">
+            <Frame HorizontalOptions="Start" BorderColor="Transparent" Margin="15,0,15,10" WidthRequest="160" Grid.ColumnSpan="2">
+                <StackLayout>
+                        <Label Text="HISTÓRIA" FontSize="Title" FontFamily="Bold" HorizontalTextAlignment="Start"/>
+                        <Label Text="A série Bridgerton é uma coleção de oito romances históricos de Julia Quinn, acompanhando a vida dos oito irmãos Bridgerton na Inglaterra da era da Regência. A série é conhecida por seus diálogos espirituosos, personagens femininas fortes e romances dignos de desmaio."  
+                FontSize="Micro" HorizontalTextAlignment="Start" Margin="0,10,0,10" />
+                </StackLayout>
+            </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" WidthRequest="160" >
+                    <Image HeightRequest="300" WidthRequest="250" Source="histlady" />
+                </Frame>
+        </Grid>
+           
+            
+            <Image HeightRequest="350" WidthRequest="700" Source="arvore2" Margin="20" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

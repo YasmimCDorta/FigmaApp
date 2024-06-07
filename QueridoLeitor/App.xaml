@@ -1,0 +1,35 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QueridoLeitor"
+             xmlns:paginas="clr-namespace:QueridoLeitor.Paginas"
+             x:Class="QueridoLeitor.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="LightBackground">#BDDB88</Color>
+            <Color x:Key="DarkBackground">Black</Color>
+
+            <Style ApplyToDerivedTypes="True" TargetType="NavigationPage">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}" />
+                <Setter Property="BarTextColor" Value="Black" />
+            </Style>
+            <Color x:Key="TitleColor">#FFFFFF</Color>
+            <Color x:Key="BackgroundColor">#BDDB88</Color>
+            <Color x:Key="Menu">black</Color>
+            <!-- Cor personalizada do título -->
+            <Style TargetType="ShellContent" x:Key="TitleStyle">
+                <Setter Property="Shell.TitleColor" Value="{StaticResource TitleColor}" />
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource BackgroundColor}" />
+            </Style>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    <Application.MainPage>
+        <Shell>
+        </Shell>
+    </Application.MainPage>
+</Application>

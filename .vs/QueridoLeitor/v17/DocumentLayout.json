@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\seriepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\seriepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\livrospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\livrospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\personagempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\personagempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\personagempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\personagempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\editausuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\editausuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\senhapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\senhapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\queridoleitor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\queridoleitor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\paginas\\livrospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\paginas\\livrospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|c:\\users\\senai3em\\desktop\\trabalhos 1b\\figma\\queridoleitor\\queridoleitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16EAF6AD-ED51-4BA0-B9A1-3CDBA7CB117C}|QueridoLeitor\\QueridoLeitor.csproj|solutionrelative:queridoleitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeriePage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\SeriePage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\SeriePage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\SeriePage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\SeriePage.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T10:36:29.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\AppShell.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\AppShell.xaml",
+              "RelativeToolTip": "QueridoLeitor\\AppShell.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T10:29:35.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonagemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\PersonagemPage.xaml.cs",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\PersonagemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\PersonagemPage.xaml.cs",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\PersonagemPage.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwEIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:23:35.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonagemPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\PersonagemPage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\PersonagemPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\PersonagemPage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\PersonagemPage.xaml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T10:23:29.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\HomePage.xaml.cs",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:35:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\HomePage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\HomePage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\HomePage.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T18:34:58.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditaUsuarioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\EditaUsuarioPage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\EditaUsuarioPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\EditaUsuarioPage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\EditaUsuarioPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T18:34:02.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SenhaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\SenhaPage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\SenhaPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\SenhaPage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\SenhaPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T18:32:44.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LoginPage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\LoginPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T18:13:14.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QueridoLeitor",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\QueridoLeitor.csproj",
+              "RelativeDocumentMoniker": "QueridoLeitor\\QueridoLeitor.csproj",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\QueridoLeitor.csproj",
+              "RelativeToolTip": "QueridoLeitor\\QueridoLeitor.csproj",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T17:58:26.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "QueridoLeitor\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\App.xaml.cs",
+              "RelativeToolTip": "QueridoLeitor\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:16:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivrosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LivrosPage.xaml.cs",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\LivrosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LivrosPage.xaml.cs",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\LivrosPage.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwCkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:23:23.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LivrosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LivrosPage.xaml",
+              "RelativeDocumentMoniker": "QueridoLeitor\\Paginas\\LivrosPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\Trabalhos 1B\\FIGMA\\QueridoLeitor\\QueridoLeitor\\Paginas\\LivrosPage.xaml",
+              "RelativeToolTip": "QueridoLeitor\\Paginas\\LivrosPage.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-17T14:22:48.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

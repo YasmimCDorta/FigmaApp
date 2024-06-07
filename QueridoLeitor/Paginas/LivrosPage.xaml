@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.LivrosPage"
+             NavigationPage.HasNavigationBar="False"
+             Title="LIVROS">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="SAGA BRIDGERTON" TextColor="Black" FontSize="Title" FontFamily="Bold" Margin="20,10" HorizontalTextAlignment="Center"/>
+            
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FF8623" WidthRequest="160" Grid.ColumnSpan="2">
+                <StackLayout>
+                    <Image HeightRequest="150" WidthRequest="250" Source="livro1" />
+                        <Button Text="O DUQUE E EU" TextColor="Black" FontFamily="Bold" x:Name="livro1" Background="#FF8623"
+                                 FontSize="Small" WidthRequest="190" Clicked="livro1_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                    </StackLayout>
+            </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF8623" WidthRequest="160" >
+                <StackLayout>
+                    <Image HeightRequest="150" WidthRequest="250" Source="livro2" />
+                        <Button Text="O VISCONDE" TextColor="Black" FontFamily="Bold" x:Name="livro2" Background="#FF8623"
+                        FontSize="Small" WidthRequest="190" Clicked="livro2_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="QUE ME AMA"   FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+            </Frame>
+        </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FF8623" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro3" />
+                        <Button Text="UM PERFEITO " TextColor="Black" FontFamily="Bold" x:Name="livro3" Background="#FF8623"
+                              FontSize="Small" WidthRequest="190" Clicked="livro3_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="CAVALHEIRO"   FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF8623" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro4" />
+                        <Button Text="OS SEGREDOS DE" TextColor="Black" FontFamily="Bold" x:Name="livro4" Background="#FF8623"
+                             FontSize="Small" WidthRequest="190" Clicked="livro4_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="COLIN B."  FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FF8623" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro5" />
+                        <Button Text="PARA SIR. PHILLIP" TextColor="Black" FontFamily="Bold" x:Name="livro5" Background="#FF8623"
+                            FontSize="Small" WidthRequest="190" Clicked="livro5_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="COM AMOR"  FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF8623" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro6" />
+                        <Button Text="O CONDE " TextColor="Black" FontFamily="Bold" x:Name="livro6" Background="#FF8623"
+                            FontSize="Small" WidthRequest="190" Clicked="livro6_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="ENFEITIÇADO"  FontSize="Small" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FF8623" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro7" />
+                        <Button Text="UM BEIJO " TextColor="Black" FontFamily="Bold" x:Name="livro7" Background="#FF8623"
+                            FontSize="Small" WidthRequest="190" Clicked="livro7_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="INESQUECIVEL"  FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF8623" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro8" />
+                        <Button Text="A CAMINHO" TextColor="Black" FontFamily="Bold" x:Name="livro8" Background="#FF8623"
+                             FontSize="Small" WidthRequest="190" Clicked="livro8_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,15,10,0"/>
+                        <Label Text="DO ALTAR"  FontSize="Small" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid HeightRequest="280" Margin="10">
+                <Frame HorizontalOptions="Start"  CornerRadius="15" Margin="15,0,15,10"  BackgroundColor="#FF8623" WidthRequest="160" Grid.ColumnSpan="2">
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="livro9" />
+                        <Button Text="E VIVERAM" TextColor="Black" FontFamily="Bold" x:Name="livro9" Background="#FF8623"
+                            FontSize="Small" WidthRequest="190" Clicked="livro9_Clicked"  VerticalOptions="Center" HorizontalOptions="Center" Margin="10,0,10,0"/>
+                        <Label Text="FELIZES PARA SEMPRE"  FontSize="Small" HorizontalTextAlignment="Center" Margin="0,0,0,2"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF5757" WidthRequest="160" >
+                    <StackLayout>
+                        <Image HeightRequest="150" WidthRequest="250" Source="citacao" />
+                        <Button Text="CITAÇÃO" TextColor="White" FontSize="Title" FontFamily="Bold" x:Name="citar" VerticalOptions="Center" HorizontalOptions="Center"
+                          Clicked="citar_Clicked" Background="#FF5757" WidthRequest="140"/>
+                        <Label Text="BRIDGERTONS" TextColor="White" FontFamily="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

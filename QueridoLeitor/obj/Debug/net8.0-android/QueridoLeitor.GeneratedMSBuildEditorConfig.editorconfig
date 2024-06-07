@@ -1,0 +1,101 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QueridoLeitor
+build_property.ProjectDir = C:\Users\SENAI3EM\Desktop\Trabalhos 1B\FIGMA\QueridoLeitor\QueridoLeitor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/CitacoesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.CitacoesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\CitacoesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\CitacoesPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/EditaUsuarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.EditaUsuarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\EditaUsuarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\EditaUsuarioPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\HomePage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/LivrosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.LivrosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\LivrosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\LivrosPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\LoginPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/PerfilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.PerfilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\PerfilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\PerfilPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/PersonagemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.PersonagemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\PersonagemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\PersonagemPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/SenhaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.SenhaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\SenhaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\SenhaPage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Paginas/SeriePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Paginas.SeriePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\SeriePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\SeriePage.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/SENAI3EM/Desktop/Trabalhos 1B/FIGMA/QueridoLeitor/QueridoLeitor/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = QueridoLeitor.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

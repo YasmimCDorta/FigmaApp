@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.LoginPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="LoginPage"
+             BackgroundColor="#BDDB88" 
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#BDDB88"/>
+    </ContentPage.Behaviors>
+    
+    <VerticalStackLayout>
+        <VerticalStackLayout Margin="15" Padding="15" Spacing="5">
+            <Image Source="loginlogo" HeightRequest="250" WidthRequest="350"/>
+
+            <Frame HasShadow="True" Margin="10" 
+               BackgroundColor= "White" BorderColor="White" CornerRadius="15">
+                <StackLayout>
+                    <Label Text="LOGIN" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"/>
+
+                    <Label x:Name="lblEmail" Text="EMAIL" TextColor="Black" FontSize="Subtitle"/>
+
+                    <Frame BorderColor="White" CornerRadius="5" Background="#FDEBA9" Margin="5" Padding="5">
+                        <Entry x:Name="txtEmail" Placeholder="Digite seu Email" Keyboard="Email" Background="#FDEBA9"/>
+                    </Frame>
+                    
+                    <Label x:Name="lblSenha" Text="SENHA" TextColor="Black" FontSize="Subtitle"/>
+
+                    <Frame BorderColor="White" CornerRadius="5" Background="#FDEBA9" Margin="5" Padding="5">
+                        <Entry Placeholder="Digite sua Senha" x:Name="txtSenha" IsPassword="True" Background="#FDEBA9"/>
+                    </Frame>
+                    
+                    <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                        <Button Text="ESQUECI MINHA SENHA" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"
+                         Clicked="senhaClicked" BackgroundColor="White"/>
+                    </StackLayout>
+
+                    <Button Text="ENTRAR" TextColor="Black" WidthRequest="250" x:Name="btnEntrar" BackgroundColor="#FF9036"
+                       Clicked="btnEntrar_Clicked" />
+
+                    <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                        <Label Text="NÃO TEM UMA CONTA?" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        <Button Text="CADASTRE-SE" TextColor="#FF9036" VerticalOptions="Center" HorizontalOptions="Center"
+                                Clicked="cadastarClicked" BackgroundColor="White"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

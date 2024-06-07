@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.CitacoesPage"
+             Title="CITAÇÕES">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame BorderColor="White" CornerRadius="5" Background="#E4EBF0" Margin="20,10" HorizontalOptions="Start"  WidthRequest="300">
+            <StackLayout>
+                <Label Text=" ''DIZER QUE OS HOMENS PODEM SER TEIMOSOS COMO MULA SERIA UM INSULTO ÀS MULAS.'' - SÌMON BASSET" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#BDD1DE" Margin="20,10" HorizontalOptions="End"  WidthRequest="300">
+            <StackLayout>
+                <Label Text=" ''O AMOR É UM ATO DE ESCOLHA. ESCOLHEMOS AMAR ALGUÉM, MESMO QUANDO É DIFÍCIL. ESCOLHEMOS AMAR ALGUÉ´M, MESMO QUANDO NÃO SENTIMOS VONTADE. ESCOLHEMOS AMAR ALGUÉ´M, MESMO QUANDO ELE NOS MAGOA.'' - ANTHONY BRIDGERTON" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#8AB3CF" Margin="20,10" HorizontalOptions="Start"  WidthRequest="300">
+            <StackLayout>
+                <Label Text=" ''O AMOR NÃO É SOBRE A PERFEIÇÃO. É SOBRE ACEITAR AS IMPERFEIÇÕES DE ALGUÉM E AMÁ-LO MESMO ASSIM.'' - SOPHIE BECKETT" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#4180AB" Margin="20,10" HorizontalOptions="End"  WidthRequest="300">
+            <StackLayout>
+                <Label Text=" ''ÀS VEZES, PRECISAMOS NOS PERDER PARA NOS ENCONTRARMOS.'' - PENELOPE FEATHERINGTON" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#4D6BA6" Margin="20,10" HorizontalOptions="Start"  WidthRequest="300">
+            <StackLayout>
+                    <Label Text=" ''NÃO TENHA MEDO DE SER DIFERENTE. O DIFERENTE É O QUE TE TORNA ESPECIAL.'' - PHILLIP CRANE" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#A5A5A8" Margin="20,10" HorizontalOptions="End"  WidthRequest="300">
+            <StackLayout>
+                    <Label Text=" ''A VIDA É CURTA DEMAIS PARA VIVER COM ARREPENDIMENTOS.'' - MICHAEL STIRLING" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#B7AE8F" Margin="20,10" HorizontalOptions="Start"  WidthRequest="300">
+                <StackLayout>
+                    <Label Text=" ''NUNCA É TARDE DEMAIS PARA PERSEGUIR SEUS SONHOS.'' - GREGORY BRIDGERTON" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#A68C69" Margin="20,10" HorizontalOptions="End"  WidthRequest="300">
+                <StackLayout>
+                    <Label Text=" ''A FAMÍLIA QUE ESCOLHEMOS É TÃO IMPORTANTE QUANTO A FAMÍLIA EM QUE NASCEMOS.'' - HUNTLEY BRIDGERTON" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#85705E" Margin="20,10" HorizontalOptions="Start"  WidthRequest="300">
+                <StackLayout>
+                    <Label Text=" ''NUNCA DESISTA DOS SEUS SONHOS.'' - VIOLET BRIDGERTON" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="White" CornerRadius="5" Background="#9BA657" Margin="20,10" HorizontalOptions="End"  WidthRequest="300">
+                <StackLayout>
+                    <Label Text=" ''A FAMÍLIA É O NOSSO LEGADO.'' - LADY DANBURY" 
+                       TextColor="Black" FontSize="Small" FontFamily="Bold" Margin="5" HorizontalTextAlignment="Start"/>
+                </StackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

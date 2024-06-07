@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueridoLeitor.Paginas.HomePage"
+             NavigationPage.HasNavigationBar="False"
+             Title="HOME">
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Image HeightRequest="300" WidthRequest="360" Source="net"/>
+
+            <Grid>
+                <Frame HorizontalOptions="Start" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FF0068" WidthRequest="160" Grid.ColumnSpan="2">
+                <StackLayout>
+                    <Image HeightRequest="150" WidthRequest="250" Source="perso" />
+
+                        <Button Text="PERSONAGENS" TextColor="White" Background="#FF0068" WidthRequest="150" x:Name="personagem" FontFamily="Bold" FontSize="Small" VerticalOptions="Center" HorizontalOptions="Center" 
+                            Clicked="personagem_Clicked" />
+
+                    <Label Text="BRIDGERTONS" TextColor="White" FontSize="Micro" FontFamily="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+                <Frame  HorizontalOptions="End" CornerRadius="15" Margin="15,0,15,10" BackgroundColor="#FC694D" WidthRequest="160" >
+                <StackLayout>
+                    <Image HeightRequest="150" WidthRequest="250" Source="serie" />
+
+                    <Button Text="SERIE" TextColor="White" FontSize="Small" FontFamily="Bold" x:Name="serie" VerticalOptions="Center" HorizontalOptions="Center"
+                            Clicked="serie_Clicked" Background="#FC694D" WidthRequest="150"/>
+
+                   <Label Text="BRIDGERTONS" TextColor="White" FontFamily="Bold" FontSize="Micro" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+            </Grid>
+
+            <Label Text="SOBRE" TextColor="Black" FontSize="Title" FontFamily="Bold" Margin="20,10" HorizontalTextAlignment="Start"/>
+
+            <Label Text="Seja bem-vindo ao Querido Leitor, sua porta de entrada para a era da Regência!" FontSize="Medium" VerticalOptions="Center"
+                   HorizontalOptions="Center" Margin="15,0" FontFamily="Bold"/>
+
+            <Label Text="Aqui, você encontrará um universo completo dedicado à série de livros de Julia Quinne à sua adaptação para a Netflix. Prepare-se para se encantar com romances arrebatadores, segredos da alta sociedade londrina e personagens inesquecíveis."
+                   FontSize="Medium" VerticalOptions="Center"
+                   HorizontalOptions="Center" Margin="15, 0, 15, 22" FontFamily="Bold"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

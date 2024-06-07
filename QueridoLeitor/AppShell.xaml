@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="QueridoLeitor.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:QueridoLeitor"
+    xmlns:pages="clr-namespace:QueridoLeitor.Paginas"
+    Shell.FlyoutBehavior="Flyout"
+    Title="QueridoLeitor">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style TargetType="FlyoutItem">
+                <Setter Property="Shell.BackgroundColor" Value="#BDDB88" />
+                <Setter Property="Shell.ForegroundColor" Value="Black" />
+                <Setter Property="Shell.TitleColor" Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+        <FlyoutItem Title="Home" Icon="casa.png" >
+            <ShellContent Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}" />
+        </FlyoutItem>
+        <FlyoutItem Title="Livros" Icon="book.png">
+            <ShellContent Route="LivrosPage" ContentTemplate="{DataTemplate pages:LivrosPage}" />
+        </FlyoutItem>
+        <FlyoutItem Title="Perfil" Icon="pessoa.png">
+            <ShellContent Route="PerfilPage" ContentTemplate="{DataTemplate pages:PerfilPage}" />
+        </FlyoutItem>
+</Shell>
